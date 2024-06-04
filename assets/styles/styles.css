@@ -65,15 +65,15 @@ background-image: url('../images/pattern-viva-sorte-3d1bd135.svg');
     box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
 }
 
-.bg-warning {
+.bg-warnings {
     --tw-bg-opacity: 1;
-    background-color: rgb(240 173 78/var(--tw-bg-opacity));
+    background-color: #F0AD4E !important;
     border-radius: .375rem;
     
 }
-.bg-primary {
+.bg-primarys {
     --tw-bg-opacity: 1;
-    background-color: rgb(47 78 181 / var(--tw-bg-opacity));
+    background-color: #2F4EB5 !important;
     border-radius: .375rem;
     
 }
