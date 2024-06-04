@@ -29,41 +29,50 @@
 
         <div class="container-custom">
             <div class="d-flex justify-content-center align-items-center" style="gap: 8px;">
+
                 <span class="text-shadow-md">Sorteio</span>
-                <div class="shadow-md p-1 bg-warnings text-white">
+                <span class="bg-warnings px-2 text-white">
+
                     em 5 dias
-                </div>
+
+                </span>
+
                 <span class="text-shadow-md">por apenas</span>
                 <div class="shadow-md p-1 bg-primarys text-white">
                     R$ 1,99
                 </div>
             </div>
+
+
             <div class="py-3">
 
-                <div class="row m-0">
-                    <div class="col-4">
+                <div class="row m-0 flex-wrap">
+                    <div class=" py-2 col-4">
                         <div class="price">
-                            <button class="shadow-md p-3 w-100 increment-button" data-increment="10">
-                                <h3 class="d-flex align-items-center justify-content-center text-3xl font-bold"> +10
+                            <button class="shadow-md p-3 w-100 increment-button" data-increment="15">
+                                <h3 class="d-flex align-items-center justify-content-center text-3xl font-bold"> +15
                                 </h3>
+                                <div class="text-sm font-light uppercase transition text-white"> R$14,85 </div>
                                 <div class="text-sm font-light uppercase transition text-white"> Selecionar </div>
                             </button>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class=" py-2 col-4">
                         <div class="price">
                             <button class="shadow-md p-3 w-100 increment-button" data-increment="20">
                                 <h3 class="d-flex align-items-center justify-content-center text-3xl font-bold"> +20
                                 </h3>
+                                <div class="text-sm font-light uppercase transition text-white"> R$19,80 </div>
                                 <div class="text-sm font-light uppercase transition text-white"> Selecionar </div>
                             </button>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class=" py-2 col-4">
                         <div class="price">
-                            <button class="shadow-md p-3 w-100 increment-button" data-increment="50">
-                                <h3 class="d-flex align-items-center justify-content-center text-3xl font-bold"> +50
+                            <button class="shadow-md p-3 w-100 increment-button" data-increment="30">
+                                <h3 class="d-flex align-items-center justify-content-center text-3xl font-bold"> +30
                                 </h3>
+                                <div class="text-sm font-light uppercase transition text-white"> R$29,70 </div>
                                 <div class="text-sm font-light uppercase transition text-white"> Selecionar </div>
                                 <div class="p-1 star">
                                     <img src="./assets/images/svgexport-2 (4).svg" width="15" height="12" alt="">
@@ -71,31 +80,33 @@
                             </button>
                         </div>
                     </div>
-                </div>
-                <div class="row m-0 py-3">
-                    <div class="col-4">
+
+                    <div class=" py-2 col-4">
+                        <div class="price">
+                            <button class="shadow-md p-3 w-100 increment-button" data-increment="50">
+                                <h3 class="d-flex align-items-center justify-content-center text-3xl font-bold"> +50
+                                </h3>
+                                <div class="text-sm font-light uppercase transition text-white"> R$49,50 </div>
+                                <div class="text-sm font-light uppercase transition text-white"> Selecionar </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class=" py-2 col-4">
                         <div class="price">
                             <button class="shadow-md p-3 w-100 increment-button" data-increment="100">
                                 <h3 class="d-flex align-items-center justify-content-center text-3xl font-bold"> +100
                                 </h3>
+                                <div class="text-sm font-light uppercase transition text-white"> R$99,00 </div>
                                 <div class="text-sm font-light uppercase transition text-white"> Selecionar </div>
                             </button>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class=" py-2 col-4">
                         <div class="price">
                             <button class="shadow-md p-3 w-100 increment-button" data-increment="200">
                                 <h3 class="d-flex align-items-center justify-content-center text-3xl font-bold"> +200
                                 </h3>
-                                <div class="text-sm font-light uppercase transition text-white"> Selecionar </div>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="price">
-                            <button class="shadow-md p-3 w-100 increment-button" data-increment="500">
-                                <h3 class="d-flex align-items-center justify-content-center text-3xl font-bold"> +500
-                                </h3>
+                                <div class="text-sm font-light uppercase transition text-white"> R$198,00 </div>
                                 <div class="text-sm font-light uppercase transition text-white"> Selecionar </div>
                             </button>
                         </div>
@@ -113,27 +124,25 @@
                             <img src="./assets/images/svgexport-4.svg" width="21" height="24" alt="">
                         </button>
                     </div>
-                    <button class="px-3 py-2 valuee" id="btn-adicionar-carrinho" onclick="adicionarAoCarrinho()"
-                        style="border: none;">
+                    <button class="px-3 py-2 valuee" id="btn-adicionar-carrinho" style="border: none;">
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="text-start">
                                 Comprar
                                 <small id="price-display" class="text-sm font-light"
-                                    style="margin-top: -4px; display: block;">
-                                    R$ 10
-                                </small>
+                                    style="margin-top: -4px; display: block;">R$ 10</small>
                             </div>
                             <img src="./assets/images/svgexport-5.svg" width="21" height="24" alt="">
                         </div>
                     </button>
                 </div>
 
+
             </div>
             <div class="my-3 text-sm font-light text-center rounded-md"> Comprar mais títulos aumenta suas chances de
                 ganhar! </div>
             <hr class="my-3">
 
-            <div class="orange-grad p-4">
+            <!-- <div class="orange-grad p-4">
 
                 <img src="./assets/images/logo-hospital-do-cancer-96ae85d6.png" style="width: 151px ; height: 74px;"
                     alt="">
@@ -160,7 +169,7 @@
                     utilizar serviços de telefonia e apps de transporte e alimentação. Eleve sua qualidade de vida e
                     desfrute de mais conveniência e economia!
                 </p>
-            </div>
+            </div> -->
         </div>
     </section>
     <footer id="footer" class="-z-0 bg-neutral-50">
@@ -203,18 +212,12 @@
                                 </path>
                             </svg><!-- <i class="text-inherit fab fa-fw fa-youtube"></i> Font Awesome fontawesome.com --></span></a>
                 </div>
-                <h4 class="text-xs text-center md:text-left footer-txt"> Título de capitalização da modalidade
-                    filantropia
-                    premiável de pagamento único emitido pela VIA CAPITALIZAÇÃO S/A., inscrita no CNPJ sob nº
-                    88.076.302/0001-94. Este título permite a cessão voluntária de 100% do direito de resgate ao
-                    INSTITUTO DO CÂNCER DE LONDRINA. Antes de contratar, consulte previamente as Condições Gerais. A
-                    aquisição implica automática adesão às Condições Gerais do VIVA SORTE, as quais o subscritor declara
-                    ter tomado ciência. A aprovação deste plano pela Susep não implica, por parte da Autarquia, em
-                    incentivo ou recomendação a sua aquisição, representando, exclusivamente, sua adequação às normas em
-                    vigor. É proibida a venda de Título de Capitalização a menores de 16 (dezesseis) anos (Art. 3º do
-                    Código Civil). <br><br> Lembre-se sempre de jogar de forma saudável e responsável no Viva Sorte,
-                    aproveitando a diversão com moderação. O título de capitalização Viva Sorte é destinado
-                    exclusivamente a maiores de 16 anos. </h4>
+                <h4 class="text-xs text-center md:text-left footer-txt"> Sorteios lastreados por Títulos de
+                    Capitalização, da Modalidade Incentivo, emitidos pela VIA Capitalização S.A, inscrita no CNPJ sob nº
+                    88.076.302/0001-94, e aprovados pela SUSEP através do registro na SUSEP Sorteio n°
+                    15414.652257/2023-51. O valor das premiações aqui indicados são líquidos, já descontado o devido
+                    imposto de renda de 25%. O registro deste plano na SUSEP não implica, por parte da Autarquia,
+                    incentivo ou recomendação a sua comercialização. </h4>
             </div>
             <hr class="h-0.5 bg-gray-300 my-3">
             <div
@@ -293,22 +296,22 @@
                     if (valorBotao === valorAtual) {
                         button.classList.add('active');
                         switch (valorBotao) {
-                            case 10:
+                            case 15:
                                 link = "https://pay.paguevivasorte.com/521rZJXx2vBgeaX?utm_campaign={{utm_campaign}}&utm_source={{utm_source}}&utm_content={{utm_content}}&utm_medium={{utm_medium}}";
                                 break;
                             case 20:
                                 link = "https://pay.paguevivasorte.com/yOeXZKbO76q3AQa?utm_campaign={{utm_campaign}}&utm_source={{utm_source}}&utm_content={{utm_content}}&utm_medium={{utm_medium}}";
                                 break;
-                            case 50:
+                            case 30:
                                 link = "https://pay.paguevivasorte.com/zj6aGnel28DZwlK?utm_campaign={{utm_campaign}}&utm_source={{utm_source}}&utm_content={{utm_content}}&utm_medium={{utm_medium}}";
                                 break;
-                            case 100:
+                            case 50:
                                 link = "https://pay.paguevivasorte.com/eApQgzVxm9jgEb7?utm_campaign={{utm_campaign}}&utm_source={{utm_source}}&utm_content={{utm_content}}&utm_medium={{utm_medium}}";
                                 break;
-                            case 200:
+                            case 100:
                                 link = "https://pay.paguevivasorte.com/6YQPgjldRjQZpxz?utm_campaign={{utm_campaign}}&utm_source={{utm_source}}&utm_content={{utm_content}}&utm_medium={{utm_medium}}";
                                 break;
-                            case 500:
+                            case 200:
                                 link = "https://pay.paguevivasorte.com/6YQPgjldRjQZpxz?utm_campaign={{utm_campaign}}&utm_source={{utm_source}}&utm_content={{utm_content}}&utm_medium={{utm_medium}}";
                                 break;
                             default:
@@ -336,7 +339,7 @@
 
             plusButton.addEventListener('click', () => {
                 let value = parseInt(numberInput.value, 10);
-                numberInput.value = value + 10;
+                numberInput.value = value + 1; // Increment by 1 for each click
                 updatePrice();
                 highlightButton();
             });
@@ -365,6 +368,7 @@
         function adicionarAoCarrinho(link) {
             window.location.href = link;
         }
+
 
     </script>
 </body>

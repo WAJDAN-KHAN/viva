@@ -312,6 +312,9 @@ footer .h-0\.5 {
     
     .imggg {
         max-width: 100%;
+        width: 100%;
+        object-fit: contain;
+        background-position: 20% -8%;
     }
     .text-3xl {
         font-size: 1.2rem;
