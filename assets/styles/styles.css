@@ -11,14 +11,18 @@ background-image: url('../images/pattern-viva-sorte-3d1bd135.svg');
  padding: 40px 0px;
 }
 
-.imggg{
+.imggg {
     position: relative;
-    
-     background-image: url('../images/32303736313936343435.webp');
-     width: 586px;
-     height: 329px;
-     margin: auto;
-     border-radius: .75rem;
+    background-image: url('../images/32303736313936343435.webp');
+    width: 100%; /* Adjust width to 100% of the parent container */
+    max-width: 586px; /* Optional: maintain a maximum width */
+    height: auto; /* Adjust height automatically */
+    aspect-ratio: 586 / 329; /* Maintain the aspect ratio */
+    margin: auto;
+    border-radius: .75rem;
+    background-size: cover; /* Ensure the background image covers the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating of the background image */
 }
 @keyframes zoom-in-out {
     0%, 100% {
@@ -311,10 +315,8 @@ footer .h-0\.5 {
 @media(max-width:640px){
     
     .imggg {
-        max-width: 100%;
-        width: 100%;
-        object-fit: contain;
-        background-position: 20% -8%;
+        width: 100%; /* Full width on smaller screens */
+        height: auto;
     }
     .text-3xl {
         font-size: 1.2rem;
